@@ -11,6 +11,11 @@ public class Main {
         }
             System.out.println("phone = " + phone);
 
-
+        // Задание 1
+        String firstName = "Ivan";
+        String middleName = "Ivanovich";
+        String lastName = "Ivanov ";
+        String fullName= firstName + " " + middleName + " " + lastName;
+        System.out.println("ФИО сотрудника — " +fullName);
     }
 }
